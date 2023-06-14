@@ -25,6 +25,14 @@ const videoList = [
         embedHtml:
           '<iframe width="560" height="315" src="https://www.youtube.com/embed/oXKbYX81d0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
       },
+      {
+        title: "Earning options as a student",
+        description: "",
+        videoLink:
+          "https://www.youtube.com/watch?v=vCNWVPiupkE&ab_channel=SaifooExplores",
+        embedHtml:
+          '<iframe width="560" height="315" src="https://www.youtube.com/embed/vCNWVPiupkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+      },
     ],
   },
   {
