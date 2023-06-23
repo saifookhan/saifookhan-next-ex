@@ -1,8 +1,10 @@
+import Image from 'next/image'
+//TODO:: WIP
 export default function ReviewCard() {
   return (
     <>
-      <figure className="m-2 max-w-sm rounded-xl bg-slate-100 p-8 dark:bg-slate-800 md:flex md:p-0">
-        <img
+      <div className="bg-slate-100 dark:bg-slate-800 min-w-[300px] rounded-xl p-8 md:flex md:p-0">
+        <Image
           className="mx-auto h-24 w-24 rounded-full"
           src="/sarah-dayan.jpg"
           alt=""
@@ -12,8 +14,8 @@ export default function ReviewCard() {
         <div className="space-y-4 pt-6 text-center md:p-8">
           <blockquote>
             <p className="text-lg font-medium">
-              “Tailwind CSS is the only framework that I've seen scale on large
-              teams. It’s easy to customize, adapts to any design, and the build
+              “Tailwind CSS is the only framework that Ive seen scale on large
+              teams. Its easy to customize, adapts to any design, and the build
               size is tiny.”
             </p>
           </blockquote>
@@ -24,7 +26,7 @@ export default function ReviewCard() {
             </div>
           </figcaption>
         </div>
-      </figure>
+      </div>
     </>
-  );
+  )
 }
