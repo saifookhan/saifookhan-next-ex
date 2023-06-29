@@ -16,7 +16,7 @@ const VideosListCollapse = () => {
           <Text>{chapter.description}</Text>
           <div className="my-2">
             <Collapse
-              defaultActiveKey="0"
+              defaultActiveKey="03"
               items={chapter.videos.map((video, innerCount) => {
                 return {
                   key: String(count) + innerCount,
