@@ -2,8 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import { Card } from 'antd'
 
-const { Meta } = Card
-
 import youtubeIcon from '../../../public/logos/youtube.svg'
 import whatsappIcon from '../../../public/logos/whatsapp.svg'
 import facebookIcon from '../../../public/logos/facebook.svg'

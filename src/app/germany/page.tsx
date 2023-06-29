@@ -66,7 +66,7 @@ export default function GermanyPage() {
             <span className="md flex flex-row gap-4 overflow-x-auto">
               {footerLinks.map((link) => {
                 return (
-                  <Link href={link.link} target="_blank">
+                  <Link href={link.link} target="_blank" key={link.link}>
                     <p>{link.linkText}</p>
                   </Link>
                 )
