@@ -32,9 +32,6 @@ export default function GermanyPage() {
       <ConfigProvider
         theme={{
           algorithm: theme.darkAlgorithm,
-          token: {
-            fontFamily: 'Inter',
-          },
         }}
       >
         <div className="mx-auto px-4 sm:container">
