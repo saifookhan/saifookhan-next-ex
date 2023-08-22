@@ -25,7 +25,7 @@ const socialChannels = [
     title: "Study in Germany/EU",
     subTitle: "894 members",
     type: "Whatsapp",
-    link: "https://chat.whatsapp.com/DPCryPTKbIX6NHJBw0qeOw",
+    link: "https://chat.whatsapp.com/BPw4HNTN90IDW5yJWVgfB6",
   },
   {
     image: whatsappIcon,
